@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Renseignement</title>
+        <link rel="stylesheet" href="formulaire.css">
+    </head>
+    <body>
+        <main>
+            <h1>Fiche de renseignement</h1>
+            <br>
+
+            <fieldset id="section1">
+                <legend>Civilité</legend>
+
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom" autofocus>
+
+                <label for="prenom">Prénom:</label>
+                <input type="text" name="prenom" id="prenom">
+
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="ex:juste@hotmail.com">
+
+                <label for="password">Password:</label>
+                <input type="password" name="email" id="password" required>
+
+
+                <label for="date">Date de naissance:</label>
+                <input type="date" name="date" id="date">
+
+
+                <p id="sex">
+                    Sexe
+                </p>
+
+                <label for="homme">Homme</label>
+                <input type="radio" name="sexe" id="homme">
+                <label for="femme">Femme</label>
+                <input type="radio" name="sexe" id="femme">
+
+            </fieldset>
+
+            <fieldset id="section2">
+                <legend>Formation</legend>
+
+                    <label for="diplome">Diplome obtenu:</label>
+                    <select name="diplome" id="diplome">
+                        <option value="aucun">Aucun</option>
+                        <option value="bac">BAC</option>
+                        <option value="bac_2">BAC+2</option>
+                        <option value="bac_3" selected>BAC+3</option>
+                        <option value="license">License</option>
+                        <option value="master">Master</option>
+                    </select>
+
+                <p class="centre">
+                    Centre d'intérêt
+                </p>
+
+                <div class="interet">
+                    <label for="musique">Musique</label>
+                    <input type="checkbox" name="Centre d'intérêt" id="musique">
+
+                     <label for="cinema">Cinema</label>
+                    <input type="checkbox" name="Centre d'intérêt" id="cinema">
+
+                    <label for="sport">Sport</label>
+                    <input type="checkbox" name="Centre d'intérêt" id="sport">
+
+                     <label for="lecture">Lecture</label>
+                    <input type="checkbox" name="Centre d'intérêt" id="lecture">
+                </div>
+
+            </fieldset>
+            <br>
+
+            <fieldset id="section3">
+
+                <label for="commentaire">Laissez un commentaire</label> <br/>
+                <textarea name="commentaire" id="commentaire" cols="109" rows="10" ></textarea>
+
+            </fieldset>
+
+            <div class="condition">
+                <input type="checkbox" name="condition" id="condition" required>
+                <label for="condition">J'accepte <a href="#">conditions d'utilisation</a>.</label>
+            </div>
+
+            <div class="bouton">
+                <input type="submit" name="envoyer" required>
+            </div>
+        </main>
+
+    </body>
+</html>

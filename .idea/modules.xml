@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FORMULAIRE.iml" filepath="$PROJECT_DIR$/.idea/FORMULAIRE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LETTRE DE MOTIVATION/.idea/LETTRE DE MOTIVATION.iml" filepath="$PROJECT_DIR$/../LETTRE DE MOTIVATION/.idea/LETTRE DE MOTIVATION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MEDIA/.idea/MEDIA.iml" filepath="$PROJECT_DIR$/../MEDIA/.idea/MEDIA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Meteojob/.idea/Meteojob.iml" filepath="$PROJECT_DIR$/../../../Meteojob/.idea/Meteojob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../SITE/.idea/SITE.iml" filepath="$PROJECT_DIR$/../../../SITE/.idea/SITE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TABLEAU/.idea/TABLEAU.iml" filepath="$PROJECT_DIR$/../TABLEAU/.idea/TABLEAU.iml" />
+    </modules>
+  </component>
+</project>
