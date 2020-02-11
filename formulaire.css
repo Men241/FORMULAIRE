@@ -52,6 +52,7 @@ fieldset>legend{
     padding: 10px 0 15px 40px;
 
 }
+
 #section2 label{
     display: inline-block;
     width: 200px;
@@ -60,12 +61,6 @@ fieldset>legend{
 
 #section2>label{
     padding-left: 40px;
-}
-
-#section label{
-    display: block;
-    width: 200px;
-
 }
 
 fieldset{
@@ -79,6 +74,7 @@ p{
     font-weight: bolder;
     color: brown;
 }
+
  h1{
      text-align: center;
      padding-top: 20px;
@@ -87,18 +83,17 @@ p{
 
  #section2 select{
      width: 200px;
-     height: 20px;
+     height: 25px;
      padding: 5px;
  }
 
  #section3{
      display: block;
      position: relative;
-     top: -40px;
-     padding-left: 40px;
-
-
+     top: 20px;
+     padding-left: 50px;
  }
+
  #section3>label{
      font-weight: bold;
      color: brown;
@@ -110,9 +105,10 @@ p{
  }
 
  .condition{
-     padding-left: 40px;
-     position: relative;
-     top: -40px;
+     padding-left: 50px;
+     padding-top: 20px;
+
+
  }
 
  .interet{
@@ -125,6 +121,7 @@ p{
  }
  .bouton{
      text-align: center;
+     padding-top: 20px;
  }
 
  .bouton input{
@@ -153,4 +150,15 @@ p{
  .lecture{
      display: flex;
      padding-left: 50px;
+ }
+
+ section{
+     padding-left: 10px;
+     padding-right: 50px;
+ }
+
+ .interet{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
  }
