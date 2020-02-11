@@ -135,3 +135,22 @@ p{
  .centre{
      padding-top: 15px;
  }
+
+ .musique{
+     display: flex;
+     flex-direction: row;
+ }
+
+ .cinema{
+     display: flex;
+     padding-left: 50px;
+ }
+
+ .sport{
+     display: flex;
+ }
+
+ .lecture{
+     display: flex;
+     padding-left: 50px;
+ }
